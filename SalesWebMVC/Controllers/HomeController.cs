@@ -15,16 +15,17 @@ namespace SalesWebMVC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public ViewResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Testando os Controllers";
+            ViewData["email"] = "email@email.com";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Entre em contato";
 
             return View();
         }
