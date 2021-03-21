@@ -20,7 +20,7 @@ namespace SalesWebMVC.Models
 
         [Required(ErrorMessage = "{0} required")]
         [Display(Name = "Bith Date")]
-        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         [DataType(DataType.Date)]
         public DateTime BirthDate { get; set; }
 
